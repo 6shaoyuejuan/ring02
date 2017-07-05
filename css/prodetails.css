@@ -49,7 +49,7 @@ a{
 }
 .g_dtal_wrap{
 	width: 1180px;
-	padding: 0 71px;
+	margin: 0 auto 71px;
 	color: #666666;
 	overflow: hidden;
 }
@@ -70,7 +70,6 @@ a{
 }
 .proPic_ul{
 	width: 480px;
-	overflow: hidden;
 	margin: 0 auto 0 auto;
 }
 .g_show_pic .stylePic .big{
@@ -88,8 +87,11 @@ a{
 	z-index: 500;
 }
 .loadImg_effect{
+	position:relative;
 	width: 400px!important;
 	height: 400px!important;
+	background-image:url('../images/z2.jpg');
+	background-size:400px 400px;
 }
 .g_show_pic .stylePic .moveright_off {
     cursor: pointer;
@@ -118,6 +120,15 @@ a{
 	margin: 0 4px;
 	border: 1px solid #dfdede;
 }
+.g_show_pic .stylePic .moveright_on {
+    cursor: pointer;
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 12px;
+    height: 62px;
+    overflow: hidden;
+    background: url("../images/btn_prev.jpg") no-repeat left center;
+}
 .g_show_pic .stylePic .moveleft_on {
     cursor: pointer;
     padding-top: 0px;
@@ -126,14 +137,14 @@ a{
     width: 12px;
     height: 62px;
     overflow: hidden;
-    background: url("..images/btn_next.jpg") no-repeat left center;
+    background: url("../images/btn_next.jpg") no-repeat left center;
 }
 .g_pro_sys{
 	width: 535px;
 	float: right;
 	margin: 18px 0;
 	position: relative;
-	z-index: 1;
+	z-index: 0;
 }
 .f_psys_tlt {
     font-family: Arial,"宋体";
@@ -292,6 +303,10 @@ a{
     background-color: white;
     overflow: auto;
 }
+.qualitySizeOpt:hover{
+	cursor: pointer;
+	color: #000;
+}
 .howToMeasure_txt{
 	color: #666666;
 }
@@ -363,3 +378,153 @@ a{
 .bds_weixin{
 	background: url('../images/weixin.jpg') center no-repeat!important;
 }
+
+/**************************商品详情************************************/
+
+.f_sys_tab{
+	width: 1180px;
+	height: 38px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	border-top: 1px solid #333;
+}
+#hide_tab {
+    width: 1180px;
+    margin: 0 auto;
+}
+#hide_tab span{
+	float: right;
+}
+.btn_pink_115x28 {
+    background: #ff8a81;
+    color: #fff;
+    border: none;
+    width: 115px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.f_sys_tab a.on {
+    color: #ff8a81;
+}
+.f_sys_tab a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 10px 22px;
+    font-family: Arial,"宋体";
+    overflow: hidden;
+    vertical-align: middle;
+}
+.f_sys_tab i {
+    vertical-align: middle;
+    color: #ccc;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "宋体";
+    font-style: normal;
+}
+.f_cont_detl {
+    padding-top: 20px;
+    background: #fff;
+    width: 1180px;
+    margin: 0 auto 40px;
+}
+.f_cont_detl_pic {
+    width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 140px;
+}
+.f_cont_coup_tips{
+	border-top: 1px solid #333333;
+}
+.f_cont_coup_tips .f_cont_serv_txt{
+	padding: 0 33px;
+}
+.f_cont_serv_txt dt {
+    background: url("../images/icon_arrow.jpg") no-repeat left center;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #000;
+    font-family: Arial,"宋体";
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.f_cont_serv_txt dd {
+    line-height: 30px;
+    color: #666;
+    font-family: Arial,"宋体";
+    font-size: 12px;
+    padding-left: 30px;
+    text-indent: -11px;
+}
+.f_cont_comm{
+	width: 1180px;
+	margin: 0 auto 40px;
+	position: relative;
+	z-index: 0;
+	background: #FFFFFF;
+}
+#u_comm_tlt{
+	text-align: center;
+	border-top: 1px solid #333333;
+	font-family: arial "宋体";
+	font-size: 12px;
+	color: #000000;
+	padding: 20px 0 0;  
+}
+.f_cont_comm_detail{
+	margin-top: 20px;
+}
+.f_sys_comm_lst{
+	padding: 0 20px;
+	background: #f9f9f9;
+}
+.f_sys_comm_lst dl {
+    border-bottom: 1px solid #fff;
+    padding: 27px 0 23px;
+    overflow: hidden;
+}
+.f_sys_comm_lst dd{
+	float: left;
+	margin-right: 17px;
+}
+.f_sys_comm_lst dd img{
+	vertical-align: middle;
+}
+.f_sys_comm_lst dt{
+	padding-left: 63px;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+}
+.f_sys_comm_star{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
