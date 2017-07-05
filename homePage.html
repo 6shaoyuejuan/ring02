@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/header_footer.css">
+	</head>
+	<script type="text/javascript" src="js/tools.js"></script>
+	<script type="text/javascript" src="js/autoSlide.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/move.js"></script>
+	<script src="js/slide.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/ringSlide.js"></script>
+	<script type="text/javascript" src="js/recomment.js"></script>
+	<body>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_top_border">
+					<div id="header_top_left">
+						<h1 class="headerwelcome">欢迎进入钻石小鸟官网</h1>
+						<a style="margin: 0 10px 0 10px" href="#">登录</a>
+						<span></span>
+						<a style="margin-left: 10px;" href="#">注册</a>
+					</div>
+					<div id="header_top_right">
+						<ul>
+							<li style="width: 105px;" id="mycart">
+								<div class="header_gray" id="my_cart_show">
+                          			<img class="header_img" src="images/header_box.png">
+                            		<div class="my_cart">
+	                            		<a href="#" class="shop_text">购物车</a>
+	                            		<span class="shop_num" id="my_header_count">0</span>
+	                            		<span class="shop_arrow"></span>
+                            		</div>
+                        		</div>
+                        		<div id="indexw_header_cart" class="header_show"
+                        			style="width: 240px; top: 34px; height: auto; max-height: 399px; min-height: 59px; overflow-y: auto; overflow-x: hidden; display: none;">
+                        			<div class="shopCard_wsp">购物车中无商品</div>
+        							<input type="hidden" id="my_cart_all_count" value="0">
+                        		</div>
+							</li>
+							<li><a href="#" class="my_orderform">我的订单</a></li>
+							<li class="arrow_hover">
+		                        <div class="indexw_header_gray"> 
+		                            <a href="#" class="indexw_header_div_1" style="line-height: 32px;">我的鸟巢</a> 
+		                            <span class="indexw_header_arrow" style=""></span>
+		                        </div>
+		                        <div class="header_show" style="display: none;"> 
+		                        	<a class="indexw_header_show_a" href="#" style="margin-top:5px;">订单查询</a> 
+		                        	<a class="indexw_header_show_a" href="#">售后服务</a> 
+		                        	<a class="indexw_header_show_a" href="#" style="padding-bottom:5px;">积分换礼</a> 								</div>
+		                    </li>
+							<li><a href="#" class="diamondClass">钻石课堂</a></li>
+							<li><a href="#" class="phone_internet">手机官网</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="header_bottom">
+				<div id="logo">
+					<a href="#"><img src="images/logo.png"/></a>
+				</div>
+				<div id="search">
+					<div id="searchInfo">
+						<form id="searchF">
+							<input class="search_input" type="text" value="戒托" />
+							<a href="#"><img src="images/icon_ser.jpg" /></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="nav">
+			<div id="nav_border">
+				<div id="homePage">
+					<div id="subnav">
+           				<div class="m_idx_snav_hide" style="display:none;">  
+                  		<div class="m_idx_snav_wp" style="display:none;"> 
+                    	<div class="snav_title">
+                        	<a href="#" class="snav_title_txtimg">钻石</a>
+							<a href="#" class="snav_title_txt">探索全部钻石</a>
+                        	<div class="snav_lst">
+				                <a href="#">30分裸钻</a>
+				                <a href="#">50分裸钻</a>
+				                <a href="#">70分裸钻</a>
+				                <a href="#">克拉钻</a>
+				                <a href="#">海淘钻石 立省15%</a>
+				                <a href="#">北极光钻石</a>
+				                <a href="#">FireCushion钻石</a>                            
+				            </div>
+				        </div>
+				        <div class="snav_lst">
+				            <a href="#">圆形</a>
+				            <a href="#">公主方</a>
+				            <a href="#">祖母绿</a>
+				            <a href="#">橄榄形</a>
+				            <a href="#">椭圆形</a>
+				            <a href="#">梨形</a>
+				            <a href="#">心形</a>
+				            <a href="#"></a>        
+				        </div>            
+				                    <div class="navline"></div>
+				                    <div class="snav_lst lstpoa">
+				                        <a href="#">定制一款钻戒</a>
+				                        <a href="#">定制一款吊坠</a>
+				                        <a href="#">钻石4C知识</a>
+				                        <a href="#">钻石其他参数如何查看</a>
+				                        <a href="#">钻石证书知识</a>
+				                        <a href="#">甄选特惠裸钻专区</a>
+				                    </div>            
+				        <div class="snav_ads">
+				            <a href="#">
+				                <img src="images/g1.jpg" alt="" width="611" height="262">
+				            </a>       
+				        </div>
+                	</div>
+            		</div>
+            			<ul class="indexw_nav_ul_2">
+            	            <li class="indexw_nav_li">
+            		           <a class="indexw_nav_a_hover indexw_nav_a" href="#">首页</a></li>
+                            <li class="indexw_nav_li">
+                            	<a class="indexw_nav_a" href="#">钻石</a></li>
+                            <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">婚戒</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">对戒</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">配饰</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">定制</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">体验中心</a>
+			                </li>
+						</ul>
+           			</div>
+				</div>
+				<div id="brandStory">
+					<ul>
+						<li><a href="#">品牌故事</a></li>
+						<li><a href="#">鸟巢论坛</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$("#my_cart_show").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#indexw_header_cart").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#my_cart_show").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$("#indexw_header_cart").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseover(function(){
+				$(".header_show").css(
+					"display","block"
+				);
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseout(function(){
+				$(".header_show").css(
+					 "display","none"
+				);
+			});		
+		
+			$(".indexw_nav_li").mouseover(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","block")
+			});
+			$(".m_idx_snav_hide,.m_idx_snav_wp").mouseover(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","block")
+			});
+			$(".indexw_nav_li").mouseout(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","none")
+			});
+			$(".m_idx_snav_hide,.m_idx_snav_wp").mouseout(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","none")
+			});		
+		
+		</script>
+		<div id="autoSlide"></div>
+		
+		<div id="main">
+			<div id="main_border">
+				<div id="main_left">
+					<h2 class="ringDesign">设计订婚戒指</h2>
+					<div class="ringSlide">
+						<ul>
+							<li><img src="images/diy_1.jpg" /></li>
+							<li><img src="images/diy_2.jpg" /></li>
+							<li><img src="images/diy_3.jpg" /></li>
+						</ul>
+					</div>
+					<a href="###" class="select_btn">从挑选钻石开始</a><br />
+					<a href="###" class="select_btn">从挑选款式开始</a>
+				</div>
+				<div id="main_right">
+					<a href="#"><img src="images/b1.jpg" /></a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="pro_deries">
+			<div id="pro_border">
+				<h2 class="pro_h">系列产品</h2>
+				<div id="pro_list">
+					<em >推荐</em>
+					<em >钻石</em>
+					<em >婚戒</em>
+					<em >对戒</em>
+					<em >配饰</em>
+				</div>
+				<div class="pro_tab" style="display: block;">
+			       <span>
+					    <a href="#" target="_blank" class="g_tab_cnt_spe_a">
+					    	<img src="images/c1.jpg" alt="" width="700" height="442" style="opacity: 1;">
+					    </a>
+					    <a href="#" target="_blank">
+					    	<img src="images/c2.jpg" alt="" width="700" height="241">
+					    </a>
+			        </span>
+				    <a href="#" target="_blank">
+				    	<img src="images/c6.jpg" alt="" width="464" height="696">
+				    </a>
+			    </div>
+			    <div class="pro_tab" style="display: none;">
+			       <span>
+					    <a href="#" target="_blank" class="g_tab_cnt_spe_a">
+					    	<img src="images/c3.jpg" alt="" width="700" height="442" style="opacity: 1;">
+					    </a>
+					    <a href="#" target="_blank">
+					    	<img src="images/c4.jpg" alt="" width="700" height="241">
+					    </a>
+			        </span>
+				    <a href="#" target="_blank">
+				    	<img src="images/c5.jpg" alt="" width="464" height="696">
+				    </a>
+			    </div>
+			    <div class="pro_tab" style="display: none;">
+			       <span>
+					    <a href="#" target="_blank" class="g_tab_cnt_spe_a">
+					    	<img src="images/c1.jpg" alt="" width="700" height="442" style="opacity: 1;">
+					    </a>
+					    <a href="#" target="_blank">
+					    	<img src="images/c2.jpg" alt="" width="700" height="241">
+					    </a>
+			        </span>
+				    <a href="#" target="_blank">
+				    	<img src="images/c6.jpg" alt="" width="464" height="696">
+				    </a>
+			    </div>
+			    <div class="pro_tab" style="display: none;">
+			       <span>
+					    <a href="#" target="_blank" class="g_tab_cnt_spe_a">
+					    	<img src="images/c3.jpg" alt="" width="700" height="442" style="opacity: 1;">
+					    </a>
+					    <a href="#" target="_blank">
+					    	<img src="images/c4.jpg" alt="" width="700" height="241">
+					    </a>
+			        </span>
+				    <a href="#" target="_blank">
+				    	<img src="images/c5.jpg" alt="" width="464" height="696">
+				    </a>
+			    </div>
+			    <div class="pro_tab" style="display: none;">
+			       <span>
+					    <a href="#" target="_blank" class="g_tab_cnt_spe_a">
+					    	<img src="images/c8.jpg" alt="" width="700" height="442" style="opacity:1;">
+					    </a>
+					    <a href="#" target="_blank">
+					    	<img src="images/c9.jpg" alt="" width="700" height="241">
+					    </a>
+			        </span>
+				    <a href="#" target="_blank">
+				    	<img src="images/c10.jpg" alt="" width="464" height="696">
+				    </a>
+			    </div>
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		<div id="recomment_ring">
+			<div id="recomment_border">
+				<h2 class="rec_h">婚戒推荐<i></i>全球美钻</h2>
+				<div class="rec_rng">
+					<div class="rec_list">
+						<ul style="left: 0px;">
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d1.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d2.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d3.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d4.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d5.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d6.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d7.jpg" /></a></li>
+							<li style="margin-top: 0px;"><a href="###"><img src="images/d8.jpg" /></a></li>
+						</ul>
+					</div>
+					<span class="rec_prev"></span>
+					<span class="rec_next"></span>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var rngind=0;
+		    var _this=$('.rec_list').find('ul');
+		    var num=_this.find('li').length;
+		    var li_w=274;
+		    var view_count=3;
+		    $('.rec_next').click(function(){
+		      console.log('a');
+		      rngind++;
+		      if(rngind + view_count >= num){
+		        rngind--; 
+		      }
+		      _this.animate({'left':'-'+(li_w*rngind)+'px'},400);
+		
+		      if(rngind === num-(view_count+1)){
+		        $('.rec_next').addClass('on');
+		      }else{
+		        $('.rec_prev').addClass('on');
+		      }
+		    });
+		    
+		  $('.rec_prev').click(function(){
+		      rngind--;
+		      if(rngind < 0){
+		        rngind = 0;
+		      }
+		      _this.animate({'left':'-'+(li_w*rngind)+'px'},400);
+		
+		      if(rngind === 0){
+		        $('.rec_prev').removeClass('on');
+		      }else{
+		        $('.rec_next').removeClass('on');
+		      }
+		    });
+		
+		  $('.rec_list ul li').hover(
+		    function () {
+		      $(this).animate({'margin-top':'-12px'},400);
+		    },function () {
+		       $(this).animate({'margin-top':'0'},400);
+		    });
+		</script>
+		<div id="rgn_shape">
+			<div id="rgn_border">
+				
+				<a href="#" class="rgn_sp_1" title="圆形"><i></i>Round</a>
+				<a href="#" class="rgn_sp_2" title="公主方"><i></i>Princess</a>
+				<a href="#" class="rgn_sp_3" title=" 垫型 "><i></i>cushion</a>
+				<a href="#" class="rgn_sp_4" title="祖母绿"><i></i>Emerald</a>
+				<a href="#" class="rgn_sp_5" title="椭圆形"><i></i>Oval</a>
+				<a href="#" class="rgn_sp_6" title="雷地恩"><i></i>Radiant</a>
+				<a href="#" class="rgn_sp_7" title="榄尖形"><i></i>Marquise</a>
+				<a href="#" class="rgn_sp_8" title="梨形"><i></i>Pear</a>
+				<a href="#" class="rgn_sp_9" title="心形"><i></i>Heart</a>
+				<a href="#" class="rgn_sp_10" title="三角形"><i></i>Trillion</a>
+				
+			</div>
+		</div>
+		
+		<div id="brand_story">
+			<div id="brand_border">
+				<div class="brand_top">
+					<span>
+						<a href="###" class="brand_top_left">
+							<img src="images/f1.jpg" />
+						</a>
+						<a href="###">
+							<img src="images/f2.gif" />
+						</a>
+					</span>
+					<a href="###">
+						<img src="images/f3.jpg" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="stores_exp">
+			<div class="tab_alist">
+				<a href="###" class="a_on" name="shanghai">上海</a><i>/</i>
+				<a href="###" name="beijing">北京</a><i>/</i>
+				<a href="###" name="guangzhou">广州</a><i>/</i>
+				<a href="###" name="chengdu">成都</a><i>/</i>
+				<a href="###" name="hangzhou">杭州</a><i>/</i>
+				<a href="###" name="nanjing">南京</a><i>/</i>
+				<a href="###" name="ningbo">宁波</a><i>/</i>
+				<a href="###" name="hefei">合肥</a><i>/</i>
+				<a href="###" name="tianjin">天津</a><i>/</i>
+				<a href="###" name="tianjin">西安</a><i>/</i>
+				<a href="###" name="zhengzhou">郑州</a><i>/</i>
+				<a href="###" name="wuhan">武汉</a><i>/</i>
+				<a href="###" name="chongqing">重庆</a><i>/</i>
+				<a href="###" name="yancheng">盐城</a><i>/</i>
+				<a href="###" name="jining">济宁</a><i>/</i>
+				<a href="###" name="linyi">临沂</a><i>/</i>
+				<a href="###" name="changzhou">常州</a>
+			</div>
+			
+			
+			<div class="tab_city_pic">
+				<div id="wrap">
+					<ul id="slide">
+						<li><img src="images/st_2.jpg"/></li>
+						<li><img src="images/st_1.jpg"/></li>
+						<li><img src="images/st_3.jpg"/></li>
+						<li><img src="images/st_4.jpg"/></li>
+					</ul>
+					
+					<!--下面原点-->
+					<ul id="list">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			   
+			    
+			    <div class="f_city_send_tel">
+			        <div class="f_city_form" id="city_form_jq">
+			            <input type="text" value="免费发送地址到手机" class="u_city_ipt">
+			            <a id="do_smssend" class="btn_city_senms" href="javascript:void(0)">发送</a>
+			        </div>
+			        <a id="btn_city_lnk" class="u_pnk_btn" target="_blank" href="###">在线预约进店</a>
+			    </div>
+			    <a class="u_city_map" target="_blank" href="###"></a>
+			    <div class="a_city" style="display: block;" name="shanghai" >
+			      <a href="###" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">上海旗舰体验中心</span><i></i>
+			          <span class="world_map_content">上海市黄浦区南京东路299号宏伊广场8层
+			          	 <br>周一至周四 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周五 10:30-20:30
+			          	 <br>周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;021-33665178
+			          </span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="beijing">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">北京体验中心</span><i></i>
+			          <span class="world_map_content">王府井大街138号新东安T2办公楼7层
+			          	<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;010-85186550</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="guangzhou"> 
+			      <a href="###" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">广州体验中心</span><i></i>
+			          <span class="world_map_content">天河区天河路230号万菱国际中心35层
+			          	<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;020-85236561</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="chengdu">
+			      <a href="###" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">成都体验中心</span><i></i>
+			          <span class="world_map_content">锦江区总府路2号时代广场A座22层<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;028-86669117</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="hangzhou">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">杭州体验中心</span><i></i>
+			          <span class="world_map_content">下城区环城北路208号坤和中心写字楼18层<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;0571-89936665</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="nanjing">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">南京体验中心</span><i></i>
+			          <span class="world_map_content">秦淮区汉中路89号金鹰写字楼A座12层<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;025-84732218</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="ningbo">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">宁波体验中心</span><i></i>
+			          <span class="world_map_content">海曙区车轿街69号恒泰大厦7层<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;0574-83879552</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="hefei">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">合肥体验中心</span><i></i>
+			          <span class="world_map_content">安徽省合肥市芜湖路万达广场7号写字楼8F<br>周一~周五 10:30~20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六~周日  10:00~20:30<br>咨询电话&nbsp;&nbsp;0551-63666186</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="tianjin">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">天津体验中心</span><i></i>
+			          <span class="world_map_content">和平区南京路219号天津中心18层<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;022-58369518</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="xian">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">西安体验中心</span><i></i>
+			          <span class="world_map_content">南门外南关正街88号王府井百货写字楼A座503<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;029-87651758</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="zhengzhou">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">郑州体验中心</span><i></i>
+			          <span class="world_map_content">二七区民主路10号华润大厦1904室<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;0371-89910828</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="wuhan">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">武汉体验中心</span><i></i>
+			          <span class="world_map_content">京汉大道1398号壹方购物中心2号写字楼1106室<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;027-85267510</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="chongqing">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">重庆体验中心</span><i></i>
+			          <span class="world_map_content">重庆市渝中区解放碑大都会东方广场15层（协信星光对面）<br>周一至周五 10:30-20:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 10:00-20:30<br>咨询电话&nbsp;&nbsp;023-63707500</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="yancheng">
+			      <a href="#" target="_blank">
+			        <span class="world_map">
+			          <span class="world_map_title">盐城体验中心</span><i></i>
+			          <span class="world_map_content">江苏盐城市建军中路133号（曹家巷老军分区东侧）<br>周一至周五 8:30~20:30 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六至周日 8:30~20:30<br>咨询电话&nbsp;&nbsp;0515-88353889</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="jining">
+			      <a>
+			        <span class="world_map">
+			          <span class="world_map_title">济宁体验中心</span><i></i>
+			          <span class="world_map_content">济宁万达广场室内步行街1F-27A<br>周一~周日 10:00-22:00<br>咨询电话&nbsp;&nbsp;0537-3162696</span>
+			        </span>
+			      </a>
+			    </div>
+			    <div class="a_city" style="display: none;" name="linyi">
+			      <a>
+			        <span class="world_map">
+			          <span class="world_map_title">临沂体验中心</span><i></i>
+			          <span class="world_map_content">临沂市北城新区齐鲁园购物广场西区1楼<br>周一~周日 10:00-21:00<br>咨询电话&nbsp;&nbsp;0539-8899521</span>
+			        </span>
+			      </a>
+			    </div> 
+			    <div class="a_city" style="display: none;" name="changzhou">
+			      <a>
+			        <span class="world_map">
+			          <span class="world_map_title">常州体验中心</span><i></i>
+			          <span class="world_map_content">常州市九洲新世界广场L1-013（GAP对面）<br>周日-周四：10:00-22:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周五-周六：10:00-22:30<br>咨询电话&nbsp;&nbsp;0519-83335520</span>
+			        </span>
+			      </a>
+			    </div>  
+			
+			</div>
+		</div>
+		<script type="text/javascript">
+			function getId(str){
+				return document.getElementById(str);
+			}
+			var oWrap = getId("wrap");
+			var oSlide = getId("slide");
+			var iWidth = parseInt(getStyle(oWrap,"width"));
+			var oList = getId("list");
+			var oLi = oList.getElementsByTagName("li");
+			var oLen = oLi.length;
+			
+			var m = 0;  
+			var timer = null;
+			oSlide.innerHTML+=oSlide.innerHTML;
+			
+			function slideShow(){
+				timer = setInterval(function(){
+					m++;
+					if(m>oLen){
+						oSlide.style.left = "0px";
+						m=1;
+					}
+					move(oSlide,{"left":(-1)*m*iWidth+"px"});
+					for(var i=0;i<oLen;i++){
+						oLi[i].className = "";
+					}
+					oLi[m%oLen].className = "active";
+				},3000)
+			}
+			slideShow();
+			oWrap.onmouseover = function(){
+				clearInterval(timer);
+			}
+			oWrap.onmouseout = function(){
+				slideShow();
+			}
+			for(var i=0;i<oLen;i++){
+				oLi[i].index = i; 
+				oLi[i].onmouseover = function(){
+					for(var j=0;j<oLen;j++){
+						oLi[j].className = "";
+					}
+					oLi[this.index].className = "active";
+					m = this.index; 
+					move(oSlide,{"left":(-1)*m*iWidth+"px"});
+				}
+			}
+		</script>
+
+		<div class="f_news_wp">
+		    <div class="f_news">
+		      <dl>
+		        <dt>资讯动态</dt>
+		            <dd><a target="_blank" href="#" title="钻石小鸟杭州体验中心十周年 匠心等待...">钻石小鸟杭州体验中心十周年 匠心等待...</a></dd>
+		            
+			        <dd><a target="_blank" href="#" title="《绝世高手》定档7月钻石小鸟助力暑期...">《绝世高手》定档7月钻石小鸟助力暑期...</a></dd>
+			        
+			        <dd><a target="_blank" href="#" title="解读TA爱的暗语 钻石小鸟“心声”系...">解读TA爱的暗语 钻石小鸟“心声”系...</a></dd>
+			        
+			        <dd><a target="_blank" href="#" title="《中国式相亲》圆满收官 钻石小鸟见证...">《中国式相亲》圆满收官 钻石小鸟见证...</a></dd>
+			        
+			        <dd><a target="_blank" href="#" title="钻石小鸟携手《OK！精彩》打造新年闪...">钻石小鸟携手《OK！精彩》打造新年闪...</a></dd>
+			        
+			        <dd><a target="_blank" href="#" title="钻石小鸟携手上海首饰设计协会 闪耀珠...">钻石小鸟携手上海首饰设计协会 闪耀珠...</a></dd>
+			        
+		      </dl>
+		      <span class="a_lnk_newsall"><a href="#">查看全部</a></span>
+		    </div>
+	    <div class="f_news">
+	      <dl>
+	        <dt>钻石课堂</dt>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="适合结婚时对唱歌曲最新选择">适合结婚时对唱歌曲最新选择</a></dd>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="你知道朋友订婚送什么礼物好吗">你知道朋友订婚送什么礼物好吗</a></dd>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="gia证书怎么查询">gia证书怎么查询</a></dd>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="婚纱礼服，新娘头纱怎么戴才好看？">婚纱礼服，新娘头纱怎么戴才好看？</a></dd>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="追女孩子送什么花好？">追女孩子送什么花好？</a></dd>
+	            <dd><a target="_blank" href="#" hidefocus="true" title="惹眼的韩式新娘造型—盘发篇">惹眼的韩式新娘造型—盘发篇</a></dd>
+	      </dl>
+	      <span class="a_lnk_newsall"><a href="#">查看全部</a></span>
+	    </div>
+		    <div id="v_pic">
+				<ul id="v_slide">
+					<li><img src="images/e1.jpg"/></li>
+					<li><img src="images/ad_01.jpg"/></li>
+					
+				</ul>
+				<!--下面原点-->
+				<ul id="v_list">
+					<li class="active"></li>
+					<li></li>
+					
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function getId(str){
+					return document.getElementById(str);
+				}
+				var oPic = getId("v_pic");
+				var oShow = getId("v_slide");
+				var oWidth = parseInt(getStyle(oPic,"width"));
+				var Li = getId("v_list");
+				var Li = Li.getElementsByTagName("li");
+				var Len = Li.length;
+				var m = 0; 
+				var timer = null;
+				oShow.innerHTML+=oShow.innerHTML;
+				function autoSlide(){
+					timer = setInterval(function(){
+						m++;
+						if(m>Len){
+							oShow.style.left = "0px";
+							m=1;
+						}
+						move(oShow,{"left":(-1)*m*oWidth+"px"});
+						for(var i=0;i<Len;i++){
+							Li[i].className = "";
+						}
+						Li[m%Len].className = "active";
+					},3000)
+				}	
+				autoSlide();
+	
+				oPic.onmouseover = function(){
+					clearInterval(timer);
+				}
+				oPic.onmouseout = function(){
+					autoSlide();
+				}
+				for(var i=0;i<Len;i++){
+					Li[i].index = i; 
+					Li[i].onmouseover = function(){
+						for(var j=0;j<Len;j++){
+							Li[j].className = "";
+						}
+						Li[this.index].className = "active";
+						m = this.index; 
+						move(oShow,{"left":(-1)*m*oWidth+"px"});
+					}
+				}
+		</script>
+			
+		
+		
+		<div class="indexw_footer_banner">
+			<ul>
+			    <li><a class="indexw_footer_banner_1" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_2" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_3" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_4" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_5" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_6" href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+		<div class="indexw_foot_service">
+		  <div class="indexw_foot_service_border">
+		    <a class="indexw_foot_service_left" href="#"></a>
+		    <div class="indexw_foot_service_middle">
+		      <ul>
+		        <li><span>关于我们</span></li>
+		        <li><a rel="nofollow" target="_blank" href="# ">品牌简介</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">市场合作</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">诚聘贤才</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">联系我们</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">商务加盟</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>购物指南</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>支付方式</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>配送方式</span></li>
+		       <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>售后服务</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		    </div>
+		    <div class="indexw_foot_service_right">
+		      <a class="xlwb" target="_blank" href="#" style="width:188px;right:0px;"></a>
+		      
+		    </div>
+		  </div>
+		</div>
+		<dl class="indexw_foot_other">
+			<dt>
+			  <p class="ft_consult"><a href="#"></a></p>
+			    <div>
+			    	<a href="#">网站地图</a>
+			    	<a href="#">友情链接<span>|</span></a> 
+			    	<a href="#">在线投诉<span>|</span></a>
+			    	<a rel="nofollow" href="#" target="_blank">&nbsp;&nbsp;沪ICP备08011593号<span>|</span></a>
+			    	<a href="#">© 2002-2017 www.zbird.com &nbsp;钻石小鸟&nbsp; All Rights Reserved.<span>|</span></a> 
+			    </div>
+			    <p style="text-align: center;font-size: 12px;">上海铂利德钻石有限公司</p>
+			    
+			</dt>
+	   		<dd class="copyright"></dd>
+  			<dd class="img" style="text-align: center;"> 
+  				<a rel="nofollow" href="#"><img src="images/fot_certi.gif" width="110" height="35"></a>
+  				<a rel="nofollow" href="#"><img src="images/fot_certi_02.jpg" width="116" height="35"></a>
+  				<a rel="nofollow" href="#" ><img src="images/fot_certi_03.jpg" width="115" height="35"></a>
+  				<a rel="nofollow" href="#" target="_blank">
+  					<img src="images/fot_certi_04.jpg" border="0">
+  				</a>
+    			<a href="#" style="display:inline-block;*display:inline;zoom:1;position:relative;text-decoration:none;">
+				    <img src="images/picp_bg.png" width="115" height="35" alt="沪公网备" border="0">
+				    <span align="center" id="picp_span">31010802001006</span>
+				</a>
+			</dd>
+</dl>
+		
+
+		<script>
+		//高亮图
+			 $("#main_right img,.pro_tab img,.brand_top img,.select_btn").mouseenter(function(){
+			      $(this).fadeTo(100, 0.8,function(){
+			        $(this).fadeTo(100, 1);
+			      });
+			    });
+			
+		</script>
+		
+   		
+		
+     
+	</body>
+</html>
