@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/prodetails.css"/>
 		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/BigMirror.js"></script>
+		<script type="text/javascript" src="js/ prodetailsmarr.js"></script>
+		<script type="text/javascript" src="js/proSlide.js"></script>
 	</head>
 	<body>
 		<div id="header">
@@ -28,7 +31,7 @@
 	                            		<span class="shop_arrow"></span>
                             		</div>
                         		</div>
- <script>
+ <!--<script>
  window.onload=function(){
 	var lis = document.getElementsByTagName("li");
 	for(var i=0; i<lis.length; i++){
@@ -40,7 +43,7 @@
 		}
 	}
 }                       	
-  </script>                      		<div id="indexw_header_cart" class="header_show"
+  </script>    -->                  		<div id="indexw_header_cart" class="header_show"
                         			style="width: 240px; top: 34px; height: auto; max-height: 399px; min-height: 59px; overflow-y: auto; overflow-x: hidden; display: none;">
                         			<div class="indexw_shopCard_wushangpin">购物车中无商品</div>
         							<input type="hidden" id="my_cart_all_count" value="0">
@@ -105,6 +108,136 @@
 				);
 			});
 		</script>
+		<div id="nav">
+			<div id="nav_border">
+				<div id="homePage">
+					<div id="subnav">
+           				<div class="m_idx_snav_hide" style="display:none;">  
+                  		<div class="m_idx_snav_wp" style="display:none;"> 
+                    	<div class="snav_title">
+                        	<a href="#" class="snav_title_txtimg">钻石</a>
+							<a href="#" class="snav_title_txt">探索全部钻石</a>
+                        	<div class="snav_lst">
+				                <a href="#">30分裸钻</a>
+				                <a href="#">50分裸钻</a>
+				                <a href="#">70分裸钻</a>
+				                <a href="#">克拉钻</a>
+				                <a href="#">海淘钻石 立省15%</a>
+				                <a href="#">北极光钻石</a>
+				                <a href="#">FireCushion钻石</a>                            
+				            </div>
+				        </div>
+				        <div class="snav_lst">
+				            <a href="#">圆形</a>
+				            <a href="#">公主方</a>
+				            <a href="#">祖母绿</a>
+				            <a href="#">橄榄形</a>
+				            <a href="#">椭圆形</a>
+				            <a href="#">梨形</a>
+				            <a href="#">心形</a>
+				            <a href="#"></a>        
+				        </div>            
+				                    <div class="navline"></div>
+				                    <div class="snav_lst lstpoa">
+				                        <a href="#">定制一款钻戒</a>
+				                        <a href="#">定制一款吊坠</a>
+				                        <a href="#">钻石4C知识</a>
+				                        <a href="#">钻石其他参数如何查看</a>
+				                        <a href="#">钻石证书知识</a>
+				                        <a href="#">甄选特惠裸钻专区</a>
+				                    </div>            
+				        <div class="snav_ads">
+				            <a href="#">
+				                <img src="images/g1.jpg" alt="" width="611" height="262">
+				            </a>       
+				        </div>
+                	</div>
+            		</div>
+            			<ul class="indexw_nav_ul_2">
+            	            <li class="indexw_nav_li">
+            		           <a class="indexw_nav_a_hover indexw_nav_a" href="#">首页</a></li>
+                            <li class="indexw_nav_li">
+                            	<a class="indexw_nav_a" href="#">钻石</a></li>
+                            <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">婚戒</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">对戒</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">配饰</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">定制</a>
+			                </li>
+			                <li class="indexw_nav_li">
+			                	<a class="indexw_nav_a" href="#">体验中心</a>
+			                </li>
+						</ul>
+           			</div>
+				</div>
+				<div id="brandStory">
+					<ul>
+						<li><a href="#">品牌故事</a></li>
+						<li><a href="#">鸟巢论坛</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$("#my_cart_show").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#indexw_header_cart").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#my_cart_show").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$("#indexw_header_cart").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseover(function(){
+				$(".header_show").css(
+					"display","block"
+				);
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseout(function(){
+				$(".header_show").css(
+					 "display","none"
+				);
+			});		
+		
+			$(".indexw_nav_li").mouseover(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","block")
+			});
+			$(".m_idx_snav_hide,.m_idx_snav_wp").mouseover(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","block")
+			});
+			$(".indexw_nav_li").mouseout(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","none")
+			});
+			$(".m_idx_snav_hide,.m_idx_snav_wp").mouseout(
+				function(){
+					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","none")
+			});		
+		
+		</script>
+		
 		
 		<div class="g_header_bg">
 			<dl class="block">
@@ -135,13 +268,8 @@
 		        				<span class="smallImg" id="styleSmallImgList"></span>
 		        				<div style="width: 400px; height: 400px; margin: 0px auto; position: relative;">
 		        					<a href="#" class="jqzoom" title="" style="outline-style: none; cursor: default; display: block; position: relative; height: 400px; width: 400px;">
-		        						<div class="loadImg_effect" style="position: relative; display: block; width: 420px; height: 430px;">
+		        						<div class="loadImg_effect" >
 		        							
-		        							<img id="styleImg" style="position: absolute; top: 15px; left: 10px; z-index: 1; width: 400px; height: 400px;" src="images/z2.jpg" title="">
-		        							
-		        							<img src="images/loading2.gif" title="" style="z-index: 3; position: absolute; display: none; top: 197px; left: 193px; width: 35px; height: 35px;">
-		        							
-		        							<img id="styleImg-lIWTEShadow" src="images/z2.jpg"  style="position: absolute; top: 57px; left: 0px; z-index: 2; width: 420px; height: 315px; display: none; border: 0px none rgb(102, 102, 102); padding: 0px;" title="">
 		        						</div>
 		        					</a>
 		        				</div>
@@ -279,17 +407,156 @@
 		    </div>
 		</div>
 	</div>
+		<script type="text/javascript">
+	
+			$(".loadImg_effect").bigMirror({
+				mirrorWidth:200,
+				mirrorHeight:200,
+				multiple:2,
+				direction:"右",
+				bigImgPath:"images/z3.jpg"	
+			});
+			
+		</script>	
+<div class="g_header_bg">
+		<div class="f_sys_tab">
+			<div id="hide_tab">
+				<span class="btn_pink_115x28" id="zixun_up" hidden="hidden" src="images/tab_consult.png" 					onclick="javascript:openOnlineCustomWin();_hmt.push(['_trackPageview','/virtual/preconsult']);ga('send','event','zixun', 'click', 'button');" style="display:none">买前咨询</span>
+				<a href="javascript:;" class="on">商品详情</a><i>/</i>
+				<a href="javascript:;">商品参数</a><i>/</i>
+				<a href="javascript:;" onclick="ga('tech.send','event','viewpinglun', 'click', 'Button');">全部评价  274</a><i>/</i>
+				<a href="javascript:;">售后服务</a>
 		
+			</div>
+		</div>
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		<div class="f_cont_detl f_cont">
+			<div class="f_cont_detl_pic">
+				<div>
+					<strong>
+						<table id="Table_01" width="900" height="8000" border="0" cellpadding="0" cellspacing="0">
+ 							<tbody>
+ 								<tr><td><img src="images/30871_1_.jpg" width="900" height="607" alt=""></td></tr>
+								<tr><td><img src="images/30871_4_.jpg" width="900" height="1386" alt=""></td></tr>
+								<tr><td><img src="images/30872_1_.jpg" width="900" height="676" alt=""></td></tr>
+								<tr><td><img src="images/30872_4_.jpg" width="900" height="2446" alt=""></td></tr>
+								<tr><td><img src="images/30873_1_.jpg" width="900" height="542" alt=""></td></tr>
+								<tr><td><img src="images/30873_4_.jpg" width="900" height="511" alt=""></td></tr>
+								<tr><td><img src="images/30874_1_.jpg" width="900" height="1112" alt=""></td></tr>
+								<tr><td><img src="images/30874_4_.jpg" width="900" height="720" alt=""></td></tr>
+ 							</tbody>
+						</table>
+					</strong>
+				</div>
+			</div>
+	      	<div class="f_cont_coup_tips">
+		        <dl class="f_cont_serv_txt">
+			        <dt>价格说明</dt>
+			        <dd><i>1.</i>未划线价格：未划线价格（包括所有价格无前缀字样及前缀“价格”、“特惠”、“惠”字样的情况）是商品当前销售价格，具体的成交价可能因会员折扣、使用优惠券等发生变化，最终以订单结算页价格为准。</dd>
+			        <dd><i>2.</i>划线价格：划线价格是该商品的吊牌价，是商品在无特殊优惠的情况下的正品零售价。</dd>
+			        <dd><i>3.</i>如您发现活动商品售价或促销信息有异常，建议购买前联系我们。</dd>
+		      	</dl>
+	      	</div> 
+		</div>
+		<div class="f_cont_comm f_cont">
+			<div id="u_comm_tlt">全部评论</div>
+			<div class="f_cont_comm_detail" id="chengpinpinglun" style="opacity: 1;">
+				
+					<div class="f_sys_comm_lst">
+							<dl>
+								<dd>
+									<img alt="普通" width="40" height="40" src="images/putong.png">
+								</dd>
+								<dt>
+									<i class="f_sys_comm_star">
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+									</i>
+									<span class="f_sys_comm_time">李**&nbsp;·&nbsp;普通&nbsp;武汉&nbsp;·&nbsp;2017-05-01 14:58:30</span>
+									<div class="f_sys_comm_txt">
+										<span>商品点评:</span>对戒简单大方，是我想要的那种，还可以DIY刻字，很满意的一次购物
+									</div>
+									<div class="f_sys_comm_txt">
+										<span>服务点评:</span>珠宝顾问很专业
+									</div>
+									<div class="f_sys_comm_show">
+										<span>商品晒图:</span>
+										<div class="dianping_text_right021_t" style="overflow: visible;float: left;">
+		                					<ul class="shaitubtn_ul">
+		                		                 <li class="shaitubtn_li " style="margin-left:0px;">
+	                                                <a><img src="images/n1.jpg"></a>
+	                                            </li>
+	                                        </ul>
+			                				<div class="shaitu_ul_border" style="display: none;">
+			                					<ul class="shaitu_ul">
+							                		<li class="red" style="margin-left:0px;">
+							                			<a><img src="images/n1.jpg"></a>
+							                		</li>
+							                	</ul>
+			                				</div>
+		                				</div>
+									</div>
+								</dt>
+							</dl>
+							<dl>
+								<dd>
+									<img alt="普通" width="40" height="40" src="images/putong.png">
+								</dd>
+								<dt>
+									<i class="f_sys_comm_star">
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+										<label class="star"></label>
+									</i>
+									<span class="f_sys_comm_time">李**&nbsp;·&nbsp;普通&nbsp;武汉&nbsp;·&nbsp;2017-05-01 14:58:30</span>
+									<div class="f_sys_comm_txt">
+										<span>商品点评:</span>对戒简单大方，是我想要的那种，还可以DIY刻字，很满意的一次购物
+									</div>
+									<div class="f_sys_comm_txt">
+										<span>服务点评:</span>珠宝顾问很专业
+									</div>
+									<div class="f_sys_comm_show">
+										<span>商品晒图:</span>
+										<div class="dianping_text_right021_t" style="overflow: visible;float: left;">
+		                					<ul class="shaitubtn_ul">
+		                		                 <li class="shaitubtn_li " style="margin-left:0px;">
+	                                                <a><img src="images/n1.jpg"></a>
+	                                            </li>
+	                                        </ul>
+			                				<div class="shaitu_ul_border" style="display: none;">
+			                					<ul class="shaitu_ul">
+							                		<li class="red" style="margin-left:0px;">
+							                			<a><img src="images/n1.jpg"></a>
+							                		</li>
+							                	</ul>
+			                				</div>
+		                				</div>
+									</div>
+								</dt>
+							</dl>
+						</div>
+						<a href="#" target="_blank" class="u_lnkmore_comm">全部评论</a>
+					</div>
+				</div>
+			</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>			
+	
 		
 		<div class="indexw_footer_banner">
 			<ul>
@@ -379,3 +646,4 @@
 	
 	</body>
 </html>
+
