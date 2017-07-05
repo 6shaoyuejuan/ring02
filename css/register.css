@@ -1,0 +1,171 @@
+*{padding: 0;margin: 0 auto;}
+ul li{list-style-type: none;}
+a{font-size: 12px;font-family:Arial,"宋体";text-decoration: none;}
+#logo_bg{
+	width: 100%;
+	height: 601px;
+	clear: both;
+	overflow: hidden;
+	background: url('../images/auth_bg_new.jpg') no-repeat center top;
+}
+.login_border{
+	width: 1180px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.login_left{
+	width: 728px;
+	height: 688px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	
+}
+.add_left{ width: 728px; height: 460px; position: absolute; top: 112px; left: 0; z-index: 4;}
+
+.fly_img{width: 728px;	height: 688px; z-index:2;position: absolute; top: 0px; left: 0px;}
+
+.login_fly{
+	width: 113px;
+	height: 104px;
+	position: absolute;
+	left: 309px;
+	top: 265px;
+	z-index:3;
+	background:url('../images/login_fly.gif') no-repeat center top;
+}
+.login_right{
+	width: 452px;
+	height: 636px;
+	margin-top: ;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.auth_main_login .reg_form{
+	float: left;
+	width: 100%;
+	height: 510px;
+	position: relative;
+}
+.reg_form .regin{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 95px;
+	left: 42px;
+	color: #000;
+	font-size: 20px;
+}
+.reg_form .rap_res{
+	width: auto;
+	height: 20px;
+	position: absolute;
+	right: 42px;
+	top: 102px;
+	z-index: 5;
+	float: right;
+}
+.reg_form .rap_res a{
+	color: #666;
+	}
+.reg_form .rap_res i{
+	font-style: normal;
+    color: #ff8a81;
+    padding-left: 10px;
+}
+.reg_form form {
+	margin-top: 136px;
+ 	 width: 366px;
+ 	 height: 381px;
+	background: #fcede9;
+ 	 }
+.reg_form form ul{
+	padding-top: 46px;
+}
+.reg_form form ul li {
+   list-style-position: outside;
+   
+   padding-left: 41px;
+    text-align: left;
+    font-size: 14px;
+    color: #999999;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    padding-bottom: 22px;
+  }
+
+ .reg_form form ul li .inp {
+  border: 0;
+  padding-left: 10px;
+  color: #151518; 
+  width: 276px;
+  height: 34px;
+  outline: none;
+  background: #fff; 
+  }
+  .reg_form form ul li .inpa {
+  border: 0;
+  padding-left: 10px;
+  color: #151518; 
+  width: 120px;
+  height: 34px;
+  outline: none;
+  background: #fff; 
+  }
+.reg_form form ul li .inpa:first-of-type{
+  	margin-right: 32px;
+  } 
+.reg_form form ul li .inpa:nth-of-type(2){
+  background: #ff8a81;
+  border: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  cursor: pointer;
+  }
+.reg_form form ul li p{
+  	width: 366px;
+  	font-size: 12px;
+  	height: 22px;
+  	line-height: 22px;
+  	color: #f16d63;
+  }
+.reg_form .check {
+	 width: 276px;
+	 height: 20px;
+	 line-height: 12px;
+	 color: #666;
+ }
+ 
+.cck{
+	outline: none;
+	float: left;
+}
+ .reg_form .check span{
+ 	float: left;
+ 	color: #666;
+ }
+.reg_form .check a{
+  	color: #666;
+  }
+.reg_form .check a:hover{
+  	color: #ff8a81;
+  }
+.reg_form form ul .step_sub {
+  border: 0; }
+
+.reg_form form ul .step_sub #sub {
+  width: 283px;
+  height: 34px;
+  background: #ff8a81;
+  border: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  }

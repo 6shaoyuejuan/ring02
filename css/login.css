@@ -1,0 +1,203 @@
+*{padding: 0;margin: 0 auto;}
+ul li{list-style-type: none;}
+a{font-size: 12px;font-family:Arial,"宋体";text-decoration: none;}
+#logo_bg{
+	width: 100%;
+	height: 601px;
+	clear: both;
+	overflow: hidden;
+	background: url('../images/auth_bg_new.jpg') no-repeat center top;
+}
+.login_border{
+	width: 1180px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.login_left{
+	width: 728px;
+	height: 688px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	
+}
+.add_left{ width: 728px; height: 460px; position: absolute; top: 112px; left: 0; z-index: 4;}
+
+.fly_img{width: 728px;	height: 688px; z-index:2;position: absolute; top: 0px; left: 0px;}
+
+.login_fly{
+	width: 113px;
+	height: 104px;
+	position: absolute;
+	left: 309px;
+	top: 265px;
+	z-index:3;
+	background:url('../images/login_fly.gif') no-repeat center top;
+}
+.login_right{
+	width: 452px;
+	height: 636px;
+	margin-top: ;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.auth_main_login .reg_form{
+	float: left;
+	width: 100%;
+	height: 510px;
+	overflow: hidden;
+	position: relative;
+	background: url('../images/auth_main_login.jpg') no-repeat 38px 130px; 
+}
+.reg_form .regin{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 95px;
+	left: 40px;
+	color: #000;
+	font-size: 20px;
+}
+.reg_form .rap_res{
+	width: auto;
+	height: 20px;
+	position: absolute;
+	right: 50px;
+	top: 102px;
+	z-index: 5;
+	float: right;
+}
+.reg_form .rap_res a{
+	color: #666;
+	}
+.reg_form form {margin-top: 174px;}
+
+.reg_form form ul li {
+   list-style-position: outside;
+    padding-left: 78px;
+    text-align: left;
+    font-size: 14px;
+    color: #999999;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    padding-bottom: 22px;
+  }
+
+ .reg_form form ul li .inp {
+  border: 0;
+  padding-left: 10px;
+  color: #151518; 
+  width: 276px;
+  height: 34px;
+  outline: none;
+  background: #fff; 
+  }
+.reg_form .check {
+ width: 376px;
+ height: 20px;
+ line-height: 12px;
+ color: #666;
+ }
+ 
+.cck{
+	outline: none;
+	float: left;
+}
+ .reg_form .check span{
+ 	float: left;
+ 	color: #666;
+ }
+  .reg_form .check a{
+  	padding-left: 178px;
+  	color: #666;
+  }
+.reg_form form ul .step_sub {
+  border: 0; }
+
+.reg_form form ul .step_sub #sub {
+  width: 283px;
+  height: 34px;
+  background: #ff8a81;
+  border: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  outline: none;
+  }
+.clearHeight{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+.reg_form ol{
+	float: left;
+}
+.reg_form ol li{
+	line-height: 24px;
+	color: #666;
+	margin-top: 4px;
+	margin-left:81px;
+}
+.qq-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	background:url('../images/qq-btn.jpg') no-repeat left top;
+}
+.qq-btn:hover{
+	background:url('../images/qq-btn.jpg') no-repeat right top;
+}
+.weixin-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left: 32px;
+	background:url('../images/weixin-btn.jpg') no-repeat left top;
+}
+.weixin-btn:hover{
+	background:url('../images/weixin-btn.jpg') no-repeat right top;
+}
+.sina-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left: 32px;
+	background:url('../images/sina-btn.jpg') no-repeat left top;
+}
+.sina-btn:hover{
+	background:url('../images/sina-btn.jpg') no-repeat right top;
+}
+.zhifubao-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left:32px;
+	background:url('../images/zhifubao-btn.jpg') no-repeat left top;
+}
+.zhifubao-btn:hover{
+	background:url('../images/zhifubao-btn.jpg') no-repeat right top;
+}
+
+.auth_pop_close{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right:13px;
+	top: 5px;
+	display: block;
+	background:url('../images/auth_pop_close.png') no-repeat left top;
+	z-index: 5;
+}
+.auth_pop_close:hover{
+	background:url('../images/auth_pop_close.png') no-repeat right top;
+}
+
+
