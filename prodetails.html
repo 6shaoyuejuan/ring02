@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/prodetails.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_top_border">
+					<div id="header_top_left">
+						<h1 class="headerwelcome">欢迎进入钻石小鸟官网</h1>
+						<a style="margin: 0 10px 0 10px" href="#">登录</a>
+						<span></span>
+						<a style="margin-left: 10px;" href="#">注册</a>
+					</div>
+					<div id="header_top_right">
+						<ul>
+							<li style="width: 105px;" id="mycart">
+								<div class="header_gray" id="my_cart_show">
+                          			<img class="header_img" src="images/header_box.png">
+                            		<div class="my_cart">
+	                            		<a href="#" class="shop_text">购物车</a>
+	                            		<span class="shop_num" id="my_header_count">0</span>
+	                            		<span class="shop_arrow"></span>
+                            		</div>
+                        		</div>
+ <script>
+ window.onload=function(){
+	var lis = document.getElementsByTagName("li");
+	for(var i=0; i<lis.length; i++){
+		lis[i].onmouseover = function(){
+			this.getElementsByTagName("div")[0].style.display = "block";
+		};
+		lis[i].onmouseout = function(){
+			this.getElementsByTagName("div")[0].style.display = "none";
+		}
+	}
+}                       	
+  </script>                      		<div id="indexw_header_cart" class="header_show"
+                        			style="width: 240px; top: 34px; height: auto; max-height: 399px; min-height: 59px; overflow-y: auto; overflow-x: hidden; display: none;">
+                        			<div class="indexw_shopCard_wushangpin">购物车中无商品</div>
+        							<input type="hidden" id="my_cart_all_count" value="0">
+                        		</div>
+							</li>
+							<li><a href="#" class="my_orderform">我的订单</a></li>
+							<li class="arrow_hover">
+		                        <div class="indexw_header_gray"> 
+		                            <a href="#" class="indexw_header_div_1" style="line-height: 32px;">我的鸟巢</a> 
+		                            <span class="indexw_header_arrow" style=""></span>
+		                        </div>
+		                        <div class="header_show" style="display: none;"> 
+		                        	<a class="indexw_header_show_a" href="#" style="margin-top:5px;">订单查询</a> 
+		                        	<a class="indexw_header_show_a" href="#">售后服务</a> 
+		                        	<a class="indexw_header_show_a" href="#" style="padding-bottom:5px;">积分换礼</a> 								</div>
+		                    </li>
+							<li><a href="#" class="diamondClass">钻石课堂</a></li>
+							<li><a href="#" class="phone_internet">手机官网</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="header_bottom">
+				<div id="logo">
+					<a href="#"><img src="images/logo.png"/></a>
+				</div>
+				<div id="search">
+					<div id="searchInfo">
+						<form id="searchF">
+							<input class="search_input" type="text" value="戒托" />
+							<a href="#"><img src="images/icon_ser.jpg" /></a>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript">
+			
+			$("#my_cart_show").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#my_cart_show").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseover(function(){
+				$(".header_show").css(
+					"display","block"
+				);
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseout(function(){
+				$(".header_show").css(
+					 "display","none"
+				);
+			});
+		</script>
+		
+		<div class="g_header_bg">
+			<dl class="block">
+	  			<div class="floatL">
+					<span class="navTit_span">
+						<a class="firstnav navTit_a" href="#">首页</a>
+					</span>
+					<span class="navTit_span">&gt;</span>
+					<span class="navTit_span">
+						<h1 class="navTit_h1">
+							<a class="navTit_a" href="#">
+									对戒		</a>
+						</h1>
+					</span>
+					<span class="navTit_span">&gt;</span>
+						<span class="navTit_span">
+							<h1 class="navTit_h1">
+									纯境-18K金钻石戒指			</h1>
+						</span>
+	  			</div>
+	  			<div class="floatR contactCollect" style="width:306px;"></div>
+			</dl>
+			<div class="g_dtal_wrap page_detlparng">
+				<div class="g_show_pic">
+					<div id="proPic" class="stylePic">
+		      			<ul class="proPic_ul">
+		        			<li class="big" id="styleBigImg">
+		        				<span class="smallImg" id="styleSmallImgList"></span>
+		        				<div style="width: 400px; height: 400px; margin: 0px auto; position: relative;">
+		        					<a href="#" class="jqzoom" title="" style="outline-style: none; cursor: default; display: block; position: relative; height: 400px; width: 400px;">
+		        						<div class="loadImg_effect" style="position: relative; display: block; width: 420px; height: 430px;">
+		        							
+		        							<img id="styleImg" style="position: absolute; top: 15px; left: 10px; z-index: 1; width: 400px; height: 400px;" src="images/z2.jpg" title="">
+		        							
+		        							<img src="images/loading2.gif" title="" style="z-index: 3; position: absolute; display: none; top: 197px; left: 193px; width: 35px; height: 35px;">
+		        							
+		        							<img id="styleImg-lIWTEShadow" src="images/z2.jpg"  style="position: absolute; top: 57px; left: 0px; z-index: 2; width: 420px; height: 315px; display: none; border: 0px none rgb(102, 102, 102); padding: 0px;" title="">
+		        						</div>
+		        					</a>
+		        				</div>
+		        				<div id="styleSmallImgList" class="smallImg">
+		        					<div id="proPicPrevBtn" class="moveright_off" style="float:left;"></div>
+		        					<div id="imgMove_face" style="float:left; height:63px;width:280px; margin:0 10px 0 20px; overflow:hidden;">
+		        						<ul id="imgMove_change" class="list_small_pic" style="width: 490px;">
+		        							<li class="on">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z1.jpg" rel="0" class="on">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z4.jpg" rel="1" class="off">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z6.jpg" rel="2" class="off">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z7.jpg" rel="3" class="off">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z8.jpg" rel="4" class="off">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z9.jpg" rel="5" class="off">
+		        							</li>
+		        							<li class="off">
+		        								<img id="styleSmallImg" width="60" height="60" src="images/z10.jpg" rel="6" class="off">
+		        							</li>
+		        						</ul>
+		        					</div>
+		        					<div id="proPicNextBtn" class="moveleft_on" style="float:right;"></div>
+		        				</div>
+		        			</li>
+		        			<li id="style3D" class="3D hide"><span id="proPic3d"></span></li>
+		      			</ul>
+    				</div>
+				</div>
+			<div class="g_pro_sys">
+	        	<div class="f_psys_tlt">
+	        			纯境
+				
+				</div>
+	        	<div class="f_psys_pri">
+		        	<em class="u_psys_pri">
+		        		<strong id="slide_price_tips" class="coupon_tips cou_bg_th" style="display:none">特惠</strong>
+		        		<span class="sys_price_txt">价格</span>
+		        		<i>￥</i>
+		        		<b id="discountPrice">5330</b>
+		        	</em>
+		        	<span class="u_psys_linepri" style="display:none;"><b>￥5330</b></span>
+		        	<span class="u_psys_sale"><i>售出</i><b>4636</b><i>评论</i><b>274</b></span>
+	        	</div>
+	        	
+		        <!-- 2016-05-11新增挪动品名 -->
+		        
+				<div class="f_psys_inf inf_txtcode">
+					<span>品名</span><i>18K金钻石戒指</i>
+		        </div>
+		        <!-- end -->
+		       	<div class="f_psys_inf inf_txtdiam">
+		       	<span>钻石</span><b>男戒　主钻0颗&nbsp;&nbsp;0.00克拉  </b><b>女戒　主钻15颗&nbsp;&nbsp;0.07克拉  </b>
+		       	</div>
+		        <div class="f_psys_inf inf_txtqulty">
+		        	<span>配送</span><b>2017-08-08</b>
+		            
+		     	</div>
+		     	<div class="f_psys_line"></div>
+		     	<div class="f_psys_inf inf_txtqulty">
+		     		<span>材质</span>
+		     		<a href="#" class="quality_rng">铂950</a>
+		       		<a href="#" class="quality_rng">黄18K金</a>
+		       		<a href="#" class="quality_rng">红18K金</a>
+		       		<a href="#" class="quality_rng_hver">白18K金</a>
+		       	  	<input type="hidden" name="quality" id="quality" value="F">
+		        </div>
+		      	<div class="f_psys_inf inf_txtselsize">
+		      		<span>手寸</span>
+		      		<ul class="inf_txtsize_ul">
+			      		<li class="qualitySizeM" onmouseover="this.className='qualitySizeMHover'" onmouseout="this.className='qualitySizeM'">
+			      			<input class="qualitySizeMBg" type="text" id="manSize" readonly="readonly" value="18">
+			      			<div class="qualitySizeMList">
+							      			<span class="qualitySizeOpt">13</span>
+							      			<span class="qualitySizeOpt">14</span>
+							      			<span class="qualitySizeOpt">15</span>
+							      			<span class="qualitySizeOpt">16</span>
+							      			<span class="qualitySizeOpt">17</span>
+							      			<span class="qualitySizeOpt">18</span>
+							      			<span class="qualitySizeOpt">19</span>
+							      			<span class="qualitySizeOpt">20</span>
+							      			<span class="qualitySizeOpt">21</span>
+							      			<span class="qualitySizeOpt">22</span>
+							      			<span class="qualitySizeOpt">23</span>
+							</div>
+			      		</li>
+			      		
+			      		<li class="qualitySizeF" onmouseover="this.className='qualitySizeFHover'" onmouseout="this.className='qualitySizeF'">
+			      			<input class="qualitySizeFBg" type="text" id="womanSize" readonly="readonly" value="12">
+			      			<div class="qualitySizeFList">
+							      			<span class="qualitySizeOpt">7</span>
+							      			<span class="qualitySizeOpt">8</span>
+							      			<span class="qualitySizeOpt">9</span>
+							      			<span class="qualitySizeOpt">10</span>
+							      			<span class="qualitySizeOpt">11</span>
+							      			<span class="qualitySizeOpt">12</span>
+							      			<span class="qualitySizeOpt">13</span>
+							      			<span class="qualitySizeOpt">14</span>
+							      			<span class="qualitySizeOpt">15</span>
+							</div>
+			      		</li>
+			      	
+			      		<li>
+			      			<a href="#" onclick="showHowToMeasure()" class="howToMeasure_txt">如何测手寸</a>
+				      	</li>
+			      		<li>
+			           		 <a id="kezishow" href="#" class="howToMeasure_txt" style="margin-left:10px;">添加刻字</a>
+			       	 	</li>
+		      		</ul>
+		        </div>
+		        <div class="f_psys_btn">
+		      		<div id="f_psys_btn_lst">
+		        		<input id="cartBtn" name="shop_car" type="button" value="加入购物车" alt="加入购物车" title="加入购物车" class="btn_pink_138x32 mr_5" onclick="gaAddToCart('','纯境','对戒','Z16','5330');">
+				 	</div>
+				    <div class="share_icon">
+				        <i id="shareRouterBtn" class="share_colet">分享</i>
+				        <div class="bdsharebuttonbox bdshare-button-style0-16" data-tag="share_1" data-bd-bind="1499159339630">   
+				            <a href="#" data-cmd="tsina" class="tsina" title="分享到新浪微博" alt="分享到新浪微博"></a>
+				            <a href="#" data-cmd="tqq" class="tqq" title="分享到腾讯微博" alt="分享到腾讯微博"></a>
+				            <a href="#" data-cmd="renren" class="renren" title="分享到人人网" alt="分享到人人网"></a>
+				            <a href="#" data-cmd="sqq" class="bds_sqq" title="分享到QQ好友" alt="分享到QQ好友"></a>
+				    	<a href="#" data-cmd="qzone" class="bds_qzone" title="分享到QQ空间" alt="分享到QQ空间"></a>
+				    		<a href="#" data-cmd="weixin" class="bds_weixin" title="分享到微信" alt="分享到微信"></a>
+			            </div>
+			        </div>  
+		     	</div>
+		    </div>
+		</div>
+	</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="indexw_footer_banner">
+			<ul>
+			    <li><a class="indexw_footer_banner_1" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_2" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_3" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_4" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_5" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_6" href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+		<div class="indexw_foot_service">
+		  <div class="indexw_foot_service_border">
+		    <a class="indexw_foot_service_left" href="#"></a>
+		    <div class="indexw_foot_service_middle">
+		      <ul>
+		        <li><span>关于我们</span></li>
+		        <li><a rel="nofollow" target="_blank" href="# ">品牌简介</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">市场合作</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">诚聘贤才</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">联系我们</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">商务加盟</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>购物指南</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>支付方式</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>配送方式</span></li>
+		       <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>售后服务</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		    </div>
+		    <div class="indexw_foot_service_right">
+		      <a class="xlwb" target="_blank" href="#" style="width:188px;right:0px;"></a>
+		      
+		    </div>
+		  </div>
+		</div>
+		<dl class="indexw_foot_other">
+			<dt>
+			  <p class="ft_consult"><a href="#"></a></p>
+			    <div>
+			    	<a href="#">网站地图</a>
+			    	<a href="#">友情链接<span>|</span></a> 
+			    	<a href="#">在线投诉<span>|</span></a>
+			    	<a rel="nofollow" href="#" target="_blank">&nbsp;&nbsp;沪ICP备08011593号<span>|</span></a>
+			    	<a href="#">© 2002-2017 www.zbird.com &nbsp;钻石小鸟&nbsp; All Rights Reserved.<span>|</span></a> 
+			    </div>
+			    <p style="text-align: center;font-size: 12px;">上海铂利德钻石有限公司</p>
+			    
+			</dt>
+	   		<dd class="copyright"></dd>
+  			<dd class="img" style="text-align: center;"> 
+  				<a rel="nofollow" href="#"><img src="images/fot_certi.gif" width="110" height="35"></a>
+  				<a rel="nofollow" href="#"><img src="images/fot_certi_02.jpg" width="116" height="35"></a>
+  				<a rel="nofollow" href="#" ><img src="images/fot_certi_03.jpg" width="115" height="35"></a>
+  				<a rel="nofollow" href="#" target="_blank">
+  					<img src="images/fot_certi_04.jpg" border="0">
+  				</a>
+    			<a href="#" style="display:inline-block;*display:inline;zoom:1;position:relative;text-decoration:none;">
+				    <img src="images/picp_bg.png" width="115" height="35" alt="沪公网备" border="0">
+				    <span align="center" id="picp_span">31010802001006</span>
+				</a>
+			</dd>
+		</dl>
+	
+	
+	</body>
+</html>
