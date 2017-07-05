@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/login.css">
+		<script src="js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_top_border">
+					<div id="header_top_left">
+						<h1 class="headerwelcome">欢迎进入钻石小鸟官网</h1>
+						<a style="margin: 0 10px 0 10px" href="#">登录</a>
+						<span></span>
+						<a style="margin-left: 10px;" href="#">注册</a>
+					</div>
+					<div id="header_top_right">
+						<ul>
+							<li style="width: 105px;" id="mycart">
+								<div class="header_gray" id="my_cart_show">
+                          			<img class="header_img" src="images/header_box.png">
+                            		<div class="my_cart">
+	                            		<a href="#" class="shop_text">购物车</a>
+	                            		<span class="shop_num" id="my_header_count">0</span>
+	                            		<span class="shop_arrow"></span>
+                            		</div>
+                        		</div>
+                        		<div id="indexw_header_cart" class="header_show"
+                        			style="width: 240px; top: 34px; height: auto; max-height: 399px; min-height: 59px; overflow-y: auto; overflow-x: hidden; display: none;">
+                        			<div class="indexw_shopCard_wushangpin">购物车中无商品</div>
+        							<input type="hidden" id="my_cart_all_count" value="0">
+                        		</div>
+							</li>
+							<li><a href="#" class="my_orderform">我的订单</a></li>
+							<li class="arrow_hover">
+		                        <div class="indexw_header_gray"> 
+		                            <a href="#" class="indexw_header_div_1" style="line-height: 32px;">我的鸟巢</a> 
+		                            <span class="indexw_header_arrow" style=""></span>
+		                        </div>
+		                        <div class="header_show" style="display: none;"> 
+		                        	<a class="indexw_header_show_a" href="#" style="margin-top:5px;">订单查询</a> 
+		                        	<a class="indexw_header_show_a" href="#">售后服务</a> 
+		                        	<a class="indexw_header_show_a" href="#" style="padding-bottom:5px;">积分换礼</a> 								</div>
+		                    </li>
+							<li><a href="#" class="diamondClass">钻石课堂</a></li>
+							<li><a href="#" class="phone_internet">手机官网</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="header_bottom">
+				<div id="logo">
+					<a href="#"><img src="images/logo.png"/></a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+			$("#my_cart_show").mouseover(function(){
+				$("#indexw_header_cart").css(
+					"display","block"
+				);
+			});
+			$("#my_cart_show").mouseout(function(){
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseover(function(){
+				$(".header_show").css(
+					"display","block"
+				);
+				$("#indexw_header_cart").css(
+					 "display","none"
+				);
+			});
+			$(".indexw_header_gray").mouseout(function(){
+				$(".header_show").css(
+					 "display","none"
+				);
+			});
+		</script>
+		
+
+		
+		
+		
+	<div id="logo_bg"> 
+		<div class="login_border"> 
+		    <div class="login_left">
+		      <div class="fly_img"></div> 
+		       <div class="add_left"></div>
+		    </div> 
+		    <div class="login_right">
+		      <div class="auth_main_login">
+		       <div class="reg_form">
+		        <div class="regin">会员登录</div>
+		        <div class="rap_res">
+		          <a href="#" target="_blank" >快速注册</a>
+		        </div>
+		            <form id="login" action="" method="post">
+						<ul>
+							<li><input type="text" name="tel" class="inp" value=""placeholder="用户名" /></li>
+							<li><input type="password" name="password" class="inp" value=""placeholder="密码" /></li>
+							<li class="check">
+								<input type="checkbox" name="agreement" class="cck" checked="checked" value="1"/>
+								<span>自动登录</span>
+								<a href="#" target="_blank">忘记密码</a>
+							</li>
+							<li class="step_sub"><input type="button" id="sub" value="登录"/></li>
+						</ul>
+				  </form>
+		          <div class="clearHeight" style="height:43px;"></div>
+		          <div class="clearHeight"></div>
+		     	  <ol style="display: block;">
+		     	  	<li >
+		                <a class="qq-btn" href="#"></a>
+		                <a class="weixin-btn" href="#"></a>
+		                <a class="sina-btn" href="#"></a>
+		                <a id="alipayLogin" class="zhifubao-btn" href="javascript:;" style="cursor: pointer;"></a>
+		            </li>
+		     	  	<form></form>
+		     	  </ol>
+		        </div>
+		
+		      </div>
+		
+		
+		    </div>
+		</div>
+	</div>
+			
+		
+		
+		<div class="indexw_footer_banner">
+			<ul>
+			    <li><a class="indexw_footer_banner_1" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_2" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_3" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_4" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_5" href="#" target="_blank"></a></li>
+			    <li><a class="indexw_footer_banner_6" href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+		<div class="indexw_foot_service">
+		  <div class="indexw_foot_service_border">
+		    <a class="indexw_foot_service_left" href="#"></a>
+		    <div class="indexw_foot_service_middle">
+		      <ul>
+		        <li><span>关于我们</span></li>
+		        <li><a rel="nofollow" target="_blank" href="# ">品牌简介</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">市场合作</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">诚聘贤才</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">联系我们</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">商务加盟</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>购物指南</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>支付方式</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>配送方式</span></li>
+		       <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		      <ul>
+		        <li><span>售后服务</span></li>
+		        <li><a rel="nofollow" target="_blank" href="#">购物流程</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单处理时间</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">订单查询</a></li>
+		        <li><a rel="nofollow" target="_blank" href="#">特色商品说明</a></li>
+		      </ul>
+		    </div>
+		    <div class="indexw_foot_service_right">
+		      <a class="xlwb" target="_blank" href="#" style="width:188px;right:0px;"></a>
+		      
+		    </div>
+		  </div>
+		</div>
+		<dl class="indexw_foot_other">
+			<dt>
+			  <p class="ft_consult"><a href="#"></a></p>
+			    <div>
+			    	<a href="#">网站地图</a>
+			    	<a href="#">友情链接<span>|</span></a> 
+			    	<a href="#">在线投诉<span>|</span></a>
+			    	<a rel="nofollow" href="#" target="_blank">&nbsp;&nbsp;沪ICP备08011593号<span>|</span></a>
+			    	<a href="#">© 2002-2017 www.zbird.com &nbsp;钻石小鸟&nbsp; All Rights Reserved.<span>|</span></a> 
+			    </div>
+			    <p style="text-align: center;font-size: 12px;">上海铂利德钻石有限公司</p>
+			    
+			</dt>
+	   		<dd class="copyright"></dd>
+  			<dd class="img" style="text-align: center;"> 
+  				<a rel="nofollow" href="#"><img src="images/fot_certi.gif" width="110" height="35"></a>
+  				<a rel="nofollow" href="#"><img src="images/fot_certi_02.jpg" width="116" height="35"></a>
+  				<a rel="nofollow" href="#" ><img src="images/fot_certi_03.jpg" width="115" height="35"></a>
+  				<a rel="nofollow" href="#" target="_blank">
+  					<img src="images/fot_certi_04.jpg" border="0">
+  				</a>
+    			<a href="#" style="display:inline-block;*display:inline;zoom:1;position:relative;text-decoration:none;">
+				    <img src="images/picp_bg.png" width="115" height="35" alt="沪公网备" border="0">
+				    <span align="center" id="picp_span">31010802001006</span>
+				</a>
+			</dd>
+		</dl>
+		
+	<script>
+		$("#sub").mouseenter(function(){
+			      $(this).fadeTo(100, 0.8,function(){
+			        $(this).fadeTo(100, 1);
+			      });
+			    });
+	
+	</script>
+	</body>
+</html>
