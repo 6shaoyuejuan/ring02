@@ -39,7 +39,7 @@ window.onload=function(){
 			$(".text3").html("密码格式错误，至少6位");
 			return;
 		}else{
-			$(".text3").html("密码格式不对");
+			$(".text3").html("");
 		}
 	});
 	$(".passw").blur(function(){
