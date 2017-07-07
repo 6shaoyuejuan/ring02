@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="css/public.css">
 		<link rel="stylesheet" href="css/register.css">
 		<script src="js/jquery-1.8.3.min.js"></script>
-		<script type="text/javascript" src="js/register.js"></script>
 	</head>
 	<body>
 		<div id="header">
@@ -59,35 +58,6 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
-			
-			$("#my_cart_show").mouseover(function(){
-				$("#indexw_header_cart").css(
-					"display","block"
-				);
-			});
-			$("#my_cart_show").mouseout(function(){
-				$("#indexw_header_cart").css(
-					 "display","none"
-				);
-			});
-			$(".indexw_header_gray").mouseover(function(){
-				$(".header_show").css(
-					"display","block"
-				);
-				$("#indexw_header_cart").css(
-					 "display","none"
-				);
-			});
-			$(".indexw_header_gray").mouseout(function(){
-				$(".header_show").css(
-					 "display","none"
-				);
-			});
-		</script>
-		
-
-		
 		
 		
 	<div id="logo_bg"> 
@@ -103,14 +73,14 @@
 		        <div class="rap_res">
 		          <a href="#" target="_blank" >已有账号<i>请登录</i></a>
 		        </div>
-		            <form id="login" action="" method="post">
+		            <form id="login" action="regSave.php" method="post">
 						<ul>
 							<li>
-								<input type="text" name="tel" class="inp" value=""placeholder="请输入手机号" />
+								<input type="tel" name="tel" id="userphone" class="inp" value=""placeholder="请输入手机号" />
 								<p class="text1"></p>
 							</li>
 							<li>
-								<input type="text" name="code" class="inpa inpcode" value=""placeholder="6位验证码" />
+								<input type="text" name="telcheckpass" class="inpa inpcode" value=""placeholder="6位验证码" />
 								<input type="button" name="mf_code" class="inpa" id="mfcode" value="免费获取验证码"/>
 								<p class="text2"></p>
 							</li>
@@ -127,7 +97,7 @@
 								<span>已阅读并同意</span>
 								<a href="#" target="_blank">《钻石小鸟用户服务协议》</a>
 							</li>
-							<li class="step_sub"><input type="button" id="sub" value="注册"/></li>
+							<li class="step_sub"><input type="submit" id="sub" value="注册"/></li>
 						</ul>
 				  </form>
 		        </div>
@@ -140,19 +110,7 @@
 	</div>
 			
 		<script>
-			var counter = document.getElementById("mfcode");
-			var s = 60;
-			function count(){
-				s--;
-				if(s<=0){
-					s=0;
-				}
-				counter.value = s;
-			}
-			counter.onclick = function(){
-				count();
-			setInterval(count,1000);
-			}
+			
 		</script>
 		
 		<div class="indexw_footer_banner">
@@ -239,14 +197,7 @@
 				</a>
 			</dd>
 		</dl>
-		 <script>
-		 	$("#mfcode,#sub").mouseenter(function(){
-			      $(this).fadeTo(100, 0.8,function(){
-			        $(this).fadeTo(100, 1);
-			      });
-			    });
-	
-		 </script>
 		 
 	</body>
 </html>
+<script type="text/javascript" src="js/register.js"></script>

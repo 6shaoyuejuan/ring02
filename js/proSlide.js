@@ -75,6 +75,7 @@
 					$(".m_idx_snav_hide,.m_idx_snav_wp").css("display","none")
 			});		
 		
+				/************************放大镜**************************/
 				
 				
 				$(".loadImg_effect").bigMirror({
@@ -85,7 +86,12 @@
 					bigImgPath:"images/z3.jpg"	
 				});
 
-
+				/************************商品详情**************************/
+				
+				
+				
+				
+				/************************精美包包**************************/
 				var tab=setInterval(tabpro, 9000);
 			    var tabmun=0;
 			    $('.f_brand_tlt a').mouseover(function() {

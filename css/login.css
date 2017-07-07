@@ -81,8 +81,8 @@ a{font-size: 12px;font-family:Arial,"宋体";text-decoration: none;}
     text-align: left;
     font-size: 14px;
     color: #999999;
-    height: 34px;
-    line-height: 34px;
+    height: 32px;
+    line-height: 32px;
     overflow: hidden;
     padding-bottom: 22px;
   }
@@ -92,7 +92,7 @@ a{font-size: 12px;font-family:Arial,"宋体";text-decoration: none;}
   padding-left: 10px;
   color: #151518; 
   width: 276px;
-  height: 34px;
+  height: 32px;
   outline: none;
   background: #fff; 
   }
@@ -112,21 +112,22 @@ a{font-size: 12px;font-family:Arial,"宋体";text-decoration: none;}
  	color: #666;
  }
   .reg_form .check a{
-  	padding-left: 178px;
+  	padding-left: 168px;
   	color: #666;
   }
 .reg_form form ul .step_sub {
   border: 0; }
 
 .reg_form form ul .step_sub #sub {
-  width: 283px;
-  height: 34px;
+  width: 285px;
+  height: 32px;
   background: #ff8a81;
   border: 0;
   text-align: center;
   margin: 0 auto;
   color: #fff;
   outline: none;
+  cursor:pointer;
   }
 .clearHeight{
 	width: 100%;

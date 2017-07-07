@@ -5,7 +5,7 @@
 		<title></title>
 		<link rel="stylesheet" href="css/public.css">
 		<link rel="stylesheet" href="css/login.css">
-		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	</head>
 	<body>
 		<div id="header">
@@ -58,36 +58,6 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
-			
-			$("#my_cart_show").mouseover(function(){
-				$("#indexw_header_cart").css(
-					"display","block"
-				);
-			});
-			$("#my_cart_show").mouseout(function(){
-				$("#indexw_header_cart").css(
-					 "display","none"
-				);
-			});
-			$(".indexw_header_gray").mouseover(function(){
-				$(".header_show").css(
-					"display","block"
-				);
-				$("#indexw_header_cart").css(
-					 "display","none"
-				);
-			});
-			$(".indexw_header_gray").mouseout(function(){
-				$(".header_show").css(
-					 "display","none"
-				);
-			});
-		</script>
-		
-
-		
-		
 		
 	<div id="logo_bg"> 
 		<div class="login_border"> 
@@ -104,14 +74,17 @@
 		        </div>
 		            <form id="login" action="" method="post">
 						<ul>
-							<li><input type="text" name="tel" class="inp" value=""placeholder="用户名" /></li>
-							<li><input type="password" name="password" class="inp" value=""placeholder="密码" /></li>
+							<li><input type="tel" name="tel" id="userphone" class="inp" value="" placeholder="手机号码" /></li>
+							<li><input type="password" id="passId" name="password" class="inp" value="" placeholder="密码" /></li>
 							<li class="check">
 								<input type="checkbox" name="agreement" class="cck" checked="checked" value="1"/>
 								<span>自动登录</span>
 								<a href="#" target="_blank">忘记密码</a>
 							</li>
-							<li class="step_sub"><input type="button" id="sub" value="登录"/></li>
+							<li class="step_sub"><input type="button" id="sub" value="登录"/>
+								<span id="errmsg" style="font-size:12px;color:#ff8a81;display:inline-block"></span>
+							</li>
+							
 						</ul>
 				  </form>
 		          <div class="clearHeight" style="height:43px;"></div>
@@ -220,14 +193,7 @@
 				</a>
 			</dd>
 		</dl>
-		
-	<script>
-		$("#sub").mouseenter(function(){
-			      $(this).fadeTo(100, 0.8,function(){
-			        $(this).fadeTo(100, 1);
-			      });
-			    });
-	
-	</script>
 	</body>
 </html>
+<script type="text/javascript" src="js/login.js"></script>
+

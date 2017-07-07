@@ -9,8 +9,9 @@
 	<script type="text/javascript" src="js/tools.js"></script>
 	<script type="text/javascript" src="js/autoSlide.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script src="js/move.js"></script>
-	<script src="js/slide.js"></script>
+	<script type="text/javascript" src="js/move.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+	<script type="text/javascript" src="js/ringSetting.js"></script>
 	<script type="text/javascript" src="js/public.js"></script>
 	<script type="text/javascript" src="js/ringSlide.js"></script>
 	<script type="text/javascript" src="js/recomment.js"></script>
@@ -204,6 +205,7 @@
 			});		
 		
 		</script>
+		
 		<div id="autoSlide"></div>
 		
 		<div id="main">
@@ -338,7 +340,7 @@
 		    var li_w=274;
 		    var view_count=3;
 		    $('.rec_next').click(function(){
-		      console.log('a');
+		     
 		      rngind++;
 		      if(rngind + view_count >= num){
 		        rngind--; 
@@ -410,23 +412,23 @@
 		
 		<div id="stores_exp">
 			<div class="tab_alist">
-				<a href="###" class="a_on" name="shanghai">上海</a><i>/</i>
-				<a href="###" name="beijing">北京</a><i>/</i>
-				<a href="###" name="guangzhou">广州</a><i>/</i>
-				<a href="###" name="chengdu">成都</a><i>/</i>
-				<a href="###" name="hangzhou">杭州</a><i>/</i>
-				<a href="###" name="nanjing">南京</a><i>/</i>
-				<a href="###" name="ningbo">宁波</a><i>/</i>
-				<a href="###" name="hefei">合肥</a><i>/</i>
-				<a href="###" name="tianjin">天津</a><i>/</i>
-				<a href="###" name="tianjin">西安</a><i>/</i>
-				<a href="###" name="zhengzhou">郑州</a><i>/</i>
-				<a href="###" name="wuhan">武汉</a><i>/</i>
-				<a href="###" name="chongqing">重庆</a><i>/</i>
-				<a href="###" name="yancheng">盐城</a><i>/</i>
-				<a href="###" name="jining">济宁</a><i>/</i>
-				<a href="###" name="linyi">临沂</a><i>/</i>
-				<a href="###" name="changzhou">常州</a>
+				<a href="###" target="_blank" class="a_on" name="shanghai">上海</a><i>/</i>
+				<a href="###" target="_blank" name="beijing">北京</a><i>/</i>
+				<a href="###" target="_blank" name="guangzhou">广州</a><i>/</i>
+				<a href="###" target="_blank" name="chengdu">成都</a><i>/</i>
+				<a href="###" target="_blank" name="hangzhou">杭州</a><i>/</i>
+				<a href="###" target="_blank" name="nanjing">南京</a><i>/</i>
+				<a href="###" target="_blank" name="ningbo">宁波</a><i>/</i>
+				<a href="###" target="_blank" name="hefei">合肥</a><i>/</i>
+				<a href="###" target="_blank" name="tianjin">天津</a><i>/</i>
+				<a href="###" target="_blank" name="tianjin">西安</a><i>/</i>
+				<a href="###" target="_blank" name="zhengzhou">郑州</a><i>/</i>
+				<a href="###" target="_blank" name="wuhan">武汉</a><i>/</i>
+				<a href="###" target="_blank" name="chongqing">重庆</a><i>/</i>
+				<a href="###" target="_blank" name="yancheng">盐城</a><i>/</i>
+				<a href="###" target="_blank" name="jining">济宁</a><i>/</i>
+				<a href="###" target="_blank" name="linyi">临沂</a><i>/</i>
+				<a href="###" target="_blank" name="changzhou">常州</a>
 			</div>
 			
 			
@@ -458,7 +460,7 @@
 			    </div>
 			    <a class="u_city_map" target="_blank" href="###"></a>
 			    <div class="a_city" style="display: block;" name="shanghai" >
-			      <a href="###" target="_blank">
+			      <a href="#" target="_blank">
 			        <span class="world_map">
 			          <span class="world_map_title">上海旗舰体验中心</span><i></i>
 			          <span class="world_map_content">上海市黄浦区南京东路299号宏伊广场8层
@@ -601,7 +603,9 @@
 			
 			</div>
 		</div>
+		</script>
 		<script type="text/javascript">
+		
 			function getId(str){
 				return document.getElementById(str);
 			}
